@@ -1,5 +1,5 @@
-baseurl = "https://sonjagagel.de/"
-title = "Sonja Gagel"
+baseurl = "http://illurama.de"
+title = "Sonja G"
 theme = "hugo-creative-portfolio-theme"
 languageCode = "de-de"
 
@@ -7,8 +7,8 @@ languageCode = "de-de"
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
   style = "default"
-  description = "Portfolio von Sonja Gagel"
-  copyright = "&copy;2023 Sonja Gagel"
+  description = "Portfolio von Sonja G"
+  copyright = "&copy;2023 Sonja G"
   sidebarAbout = [
     "Ich bin Sonja aus Nuernberg"
   ]
