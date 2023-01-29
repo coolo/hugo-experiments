@@ -1,4 +1,4 @@
-baseurl = "http://illurama.de"
+baseurl = "https://hugo.kulow.org"
 title = "Sonja G"
 theme = "hugo-creative-portfolio-theme"
 languageCode = "de-de"
