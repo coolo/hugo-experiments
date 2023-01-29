@@ -1,0 +1,29 @@
+baseurl = "https://sonjagagel.de/"
+title = "Sonja Gagel"
+theme = "hugo-creative-portfolio-theme"
+languageCode = "de-de"
+
+[params]
+  # Style options: default (pink), blue, green, pink, red, sea, violet
+  # Use custom.css for your custom styling
+  style = "default"
+  description = "Portfolio von Sonja Gagel"
+  copyright = "&copy;2023 Sonja Gagel"
+  sidebarAbout = [
+    "Ich bin Sonja aus Nuernberg"
+  ]
+
+  # Navigation
+  [[params.navlinks]]
+  name = "Portfolio"
+  url = "portfolio/"
+  home = true
+
+  [[params.navlinks]]
+  name = "Impressum"
+  url = "impressum/"
+
+  [[params.navlinks]]
+  name = "Fragen?"
+  url = "contact/"
+
