@@ -1,10 +1,10 @@
 +++
-image = "img/portfolio/gravity-paper.jpg"
-showonlyimage = false
+image = "img/portfolio/portfolio-3.jpg"
 date = "2016-11-05T19:44:32+05:30"
-title = "Name of the work 3"
+title = "Tour de France"
+description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
 draft = false
-weight = 2
+weight = 3
 +++
 
 Fifth abundantly made Give sixth hath. Cattle creature i be don't them.

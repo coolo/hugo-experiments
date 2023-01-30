@@ -7,6 +7,7 @@ languageCode = "de-de"
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
   style = "default"
+  brand = "Sonja G"
   description = "Portfolio von Sonja G"
   copyright = "&copy;2023 Sonja G"
   sidebarAbout = [

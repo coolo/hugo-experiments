@@ -1,0 +1,16 @@
+<nav class="navbar navbar-expand-lg navbar-light py-3 py-lg-2 fixed-top" id="navbar">
+    <div class="container py-lg-2">
+      {{ with .Site.Params.brand }}<a class="navbar-brand" href="index.html"></a>{{ . }}</a>{{ end }}
+      <button class="navbar-toggler text-sm shadow-0 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon ms-2"></span></button>
+      <div class="collapse navbar-collapse" id="navigation">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link text-shadow-sm" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link text-shadow-sm" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link text-shadow-sm" href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link text-shadow-sm" href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link text-shadow-sm" href="#contact">Contact</a></li>
+          <li class="nav-item ms-2"><a class="btn navbar-btn btn-outline-light rounded-pill px-4 d-none d-lg-block" href="#">Learn more</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>

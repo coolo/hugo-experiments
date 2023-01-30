@@ -1,9 +1,8 @@
 +++
-showonlyimage = false
 draft = false
 image = "img/portfolio/ipad-air-2.jpg"
 date = "2016-11-05T19:59:22+05:30"
-title = "Name of the work 8"
+title = "Ipad Air 2"
 weight = 8
 +++
 
