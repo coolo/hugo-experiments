@@ -1,13 +1,9 @@
+
 {{ define "main" }}
-<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
-  <div class="row">
-    <div class="col-lg-8">
-      <div class="content-column-content">
-         <h1>{{ .Title }}</h1>
-         {{ .Content }}
-         {{ template "_internal/disqus.html" . }}
-      </div>
-    </div>
-  </div>
+<div class="p-5 mb-5 bg-light">
+  <div class="row gy-3">
+    <div class="col-sm-9">
+      <h1 class="fw-normal">{{ .Title }}</h1>
+      {{ .Content }}
 </div>
 {{ end }}
