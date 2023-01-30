@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html>
-  {{ partial "head.html" . }}    
-  <body>
-    {{ partial "navbar.html" . }}    
-    <div class="page-holder">
-      <div class="px-4 py-5">
-        <div class="container">    
-          {{ partial "hero.html" . }}
-          {{ partial "portfolio.html" . }}
-        </div>
-      </div>
-      {{ partial "footer.html" . }}
-    </div>
-    {{ partial "scripts.html" . }}    
-  </body>
-</html>
+{{ define "main" }} 
+  {{ partial "hero.html" . }}
+  {{ partial "portfolio.html" . }}
+{{ end }}

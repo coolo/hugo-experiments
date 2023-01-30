@@ -20,9 +20,9 @@ languageCode = "de-de"
 
   [[params.navlinks]]
   name = "Impressum"
-  url = "impressum/"
+  url = "impressum"
 
   [[params.navlinks]]
   name = "Fragen?"
-  url = "contact/"
+  url = "contact"
 
