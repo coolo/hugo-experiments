@@ -2,7 +2,7 @@
 # See https://github.com/spf13/hugoThemes#themetoml for an example
 
 name = "Minimal portfolio"
-license = "MIT"
+license = "MIT AND Custom"
 description = "Port of the minimal portfolio theme"
 tags = ["creative", "portfolio", "projects", "minimal", "responsive"]
 features = ["bootstrap", "responsive"]

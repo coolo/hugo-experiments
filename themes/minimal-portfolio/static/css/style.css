@@ -10812,8 +10812,7 @@ body {
 }
 
 .page-holder {
-  width: calc(100% - $sidebar-width);
-  margin-left: 18rem;
+  margin-left: 1rem;
   min-height: 100vh;
   transition: all 0.3s linear;
 }
@@ -10823,11 +10822,6 @@ body {
     width: 100%;
     margin-left: 0;
   }
-}
-
-.page-holder.active {
-  width: calc(100% - $sidebar-width);
-  margin-left: 18rem;
 }
 
 /*

@@ -24,15 +24,6 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-    /* ===============================================================
-		NAVBAR TOGGLING
-	=============================================================== */
-    document
-        .querySelector(".navbar-toggler")
-        .addEventListener("click", function () {
-            document.querySelector(".sidebar").classList.toggle("active");
-            document.querySelector(".page-holder").classList.toggle("active");
-        });
 });
 
 // First we get the viewport height and we multiple it by 1% to get a value for a vh unit
