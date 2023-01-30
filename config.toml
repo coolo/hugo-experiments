@@ -1,6 +1,6 @@
 baseurl = "https://hugo.kulow.org"
 title = "Sonja G"
-theme = "hugo-creative-portfolio-theme"
+theme = "minimal-portfolio"
 languageCode = "de-de"
 
 [params]

@@ -1,0 +1,18 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/spf13/hugoThemes#themetoml for an example
+
+name = "Minimal portfolio"
+license = "MIT"
+description = "Port of the minimal portfolio theme"
+tags = ["creative", "portfolio", "projects", "minimal", "responsive"]
+features = ["bootstrap", "responsive"]
+min_version = 0.20
+
+[author]
+  name = "Stephan Kulow"
+  homepage = "https://github.com/coolo"
+
+# If porting an existing theme
+[original]
+  name = "bootstrapious"
+  homepage = "https://bootstrapious.com/p/minimal-bootstrap-creative-portfolio"
