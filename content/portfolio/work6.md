@@ -1,8 +1,9 @@
 +++
 draft = false
-image = "img/portfolio/portfolio-6.jpg"
+image = "img/SonjaGagel_CI_Ausstellung_Schulmuseum_KIKi.jpg"
 date = "2016-11-05T19:56:17+05:30"
-title = "Banana Lady"
+title = "KI (noch) ohne künstliche Intelligenz"
+description = "CI / Ausstellung / Spieledesign / Branding"
 weight = 6
 +++
 

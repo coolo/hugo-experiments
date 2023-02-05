@@ -1,8 +1,8 @@
 +++
 draft = false
-image = "img/portfolio/ipad-air-2.jpg"
+image = "img/SonjaGagel_Illustration_SpalterBier_Hopfenbaeuerin.jpg"
 date = "2016-11-05T19:59:22+05:30"
-title = "Ipad Air 2"
+title = ""
 weight = 8
 +++
 

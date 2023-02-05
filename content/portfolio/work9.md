@@ -1,8 +1,8 @@
 +++
 draft = false
-image = "img/portfolio/envelope-brand.jpg"
+image = "img/Ref_CI_Logo_4_Schloesser_Blasorchester_Sticker_Reihung.jpg"
 date = "2016-11-05T20:02:19+05:30"
-title = "Envelopes are cool"
+title = ""
 weight = 9
 +++
 

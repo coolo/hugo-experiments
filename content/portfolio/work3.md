@@ -1,8 +1,8 @@
 +++
-image = "img/portfolio/portfolio-3.jpg"
+image = "img/SonjaGagel_Web_Lepper_Webseite_eule.jpg"
 date = "2016-11-05T19:44:32+05:30"
-title = "Tour de France"
-description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+title = "Eulen zum Finanzamt getragen?"
+description = "CI / Webseite"
 draft = false
 weight = 3
 +++
