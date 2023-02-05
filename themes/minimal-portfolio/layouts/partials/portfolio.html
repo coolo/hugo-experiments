@@ -1,6 +1,6 @@
 <div class="row gy-4 gx-5 masonry-wrapper">
     {{ range where (where .Site.Pages "Section" "portfolio") ".IsPage" true }}
-        <div class="col-lg-4 col-md-6 grid-item">
+        <div class="col-lg-6 col-md-6 grid-item">
             <div class="listing-item ps-0">
                 <div class="position-relative">
                     <a class="reset-anchor d-block listing-img-holder" href="{{ .Permalink }}"><img class="img-fluid rounded-lg" src="{{.Params.image | absURL}}" alt="{{.Title}}"/>
