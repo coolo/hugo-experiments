@@ -1,11 +1,10 @@
 +++
-showonlyimage = true
 draft = false
-image = "img/portfolio/portfolio-1.jpg"
-date = "2016-11-05T18:25:22+05:30"
-title = "Treasure"
+image = "img/SonjaGagel_EVENT_DPolG_Landeskongress_Logo_neu_denken_animiert.gif"
+date = "2021-11-05T18:25:22+05:30"
+title = "Blacu denkt neu -"
 weight = 1
-description = "Powerful Pointing"
+description = "Event / CI / Trailer"
 +++
 
 Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life. One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.

@@ -8,10 +8,9 @@ languageCode = "de-de"
   description = "Portfolio von Sonja G"
   copyright = "&copy;2023 Sonja G"
   
-  hero_zeile1 = "Hallo"
-  hero_zeile2 = "Ich bin Sonja aus Nürnberg"
-  hero_zeile3 = "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim iste natus error sit voluptatem accusantium doloremque."
-
+  hero_zeile1 = "highgest Design aus Nürnberg."
+  hero_zeile2 = "begeisternde Designlösungen, plattformübergreifend nachhaltig und effektiv"
+  
   # Navigation
   [[params.navlinks]]
   name = "Portfolio"
