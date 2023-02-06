@@ -8,8 +8,19 @@
     <link rel="stylesheet" href="{{ "css/glightbox.css" | absURL }}">
     <!-- Google fonts-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&amp;display=swap">
-    <!-- theme stylesheet-->
-    <link rel="stylesheet" href="{{ "css/style.css" | absURL }}" id="theme-stylesheet">
+
+    {{/* Load Bootstrap SCSS. */}}
+    {{ $options := dict "enableSourceMap" true }}
+    {{ if hugo.IsProduction}}
+    {{ $options := dict "enableSourceMap" false "outputStyle" "compressed" }}
+    {{ end }}
+    {{ $styles := resources.Get "scss/styles.scss" }}
+    {{ $styles = $styles | resources.ToCSS $options }}
+    {{ if hugo.IsProduction }}
+    {{ $styles = $styles | fingerprint }}
+    {{ end }}
+    <link href="{{ $styles.RelPermalink }}" rel="stylesheet" />
+
     <!-- Favicon-->
     <link rel="shortcut icon" href="{{ "img/favicon.png" | absURL }}">
 </head>

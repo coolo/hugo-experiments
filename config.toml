@@ -25,3 +25,10 @@ languageCode = "de-de"
   name = "Fragen?"
   url = "contact"
 
+[module]
+[module.hugoVersion]
+# We use hugo.Deps to list dependencies, which was added in Hugo 0.92.0
+min = "0.92.0"
+
+[[module.imports]]
+path="github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
