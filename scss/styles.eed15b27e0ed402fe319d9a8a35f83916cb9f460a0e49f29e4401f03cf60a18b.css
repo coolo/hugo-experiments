@@ -8955,4 +8955,8 @@ a.text-hover-dark:focus, a.text-hover-dark:hover {
   color: #ef5285;
   text-decoration: none; }
 
+.projekte {
+  font-size: 12vw;
+  background-color: #fff; }
+
 /*# sourceMappingURL=styles.css.map */
