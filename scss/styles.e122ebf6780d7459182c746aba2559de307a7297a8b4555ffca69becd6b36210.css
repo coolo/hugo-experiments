@@ -9005,7 +9005,8 @@ a.text-hover-dark:focus, a.text-hover-dark:hover {
 
 .projekte {
   font-size: 12vw;
-  background-color: #fff; }
+  background-color: #fff;
+  z-index: 0; }
 
 .navbar-brand-svg {
   height: 0.7em; }
