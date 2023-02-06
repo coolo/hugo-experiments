@@ -8369,6 +8369,54 @@ body {
     width: 100%;
     margin-left: 0; } }
 
+.listing-item {
+  padding-left: 1rem; }
+
+.listing-item-description {
+  color: #999; }
+
+.listing-item-heading {
+  transition: all 0.3s; }
+
+.listing-item .listing-tags {
+  transform: rotate(-90deg);
+  transform-origin: bottom left;
+  position: absolute;
+  bottom: 0;
+  left: 0; }
+
+.listing-item:hover .listing-img-holder::before {
+  border: 10px solid white; }
+
+.listing-item:hover .listing-item-heading {
+  color: #ef5285; }
+
+.listing-item:hover .listing-btn {
+  transform: none;
+  opacity: 1; }
+
+.listing-img-holder {
+  position: relative; }
+
+.listing-img-holder::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 1px solid white;
+  transition: all 0.3s; }
+
+.listing-img-holder .listing-btn {
+  position: absolute;
+  bottom: -1.3rem;
+  right: 0.5rem;
+  opacity: 0;
+  transition: all 0.3s;
+  transform: translate(-0.5rem, 0.5rem); }
+
 /*
 * ===================================================
 *    Custom Bootstrapious Utils
@@ -8958,5 +9006,8 @@ a.text-hover-dark:focus, a.text-hover-dark:hover {
 .projekte {
   font-size: 12vw;
   background-color: #fff; }
+
+.navbar-brand-svg {
+  height: 0.7em; }
 
 /*# sourceMappingURL=styles.css.map */
