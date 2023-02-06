@@ -8361,8 +8361,7 @@ body {
 
 .page-holder {
   margin-left: 1rem;
-  min-height: 100vh;
-  transition: all 0.3s linear; }
+  min-height: 100vh; }
 
 @media (max-width: 767.98px) {
   .page-holder {
@@ -8385,15 +8384,13 @@ body {
   bottom: 0;
   left: 0; }
 
-.listing-item:hover .listing-img-holder::before {
-  border: 10px solid white; }
-
 .listing-item:hover .listing-item-heading {
   color: #ef5285; }
 
 .listing-item:hover .listing-btn {
   transform: none;
-  opacity: 1; }
+  opacity: 1;
+  z-index: 103; }
 
 .listing-img-holder {
   position: relative; }
@@ -8406,7 +8403,6 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  border: 1px solid white;
   transition: all 0.3s; }
 
 .listing-img-holder .listing-btn {
@@ -9010,5 +9006,31 @@ a.text-hover-dark:focus, a.text-hover-dark:hover {
 
 .navbar-brand-svg {
   height: 0.7em; }
+
+.solid-white {
+  background-color: #fff; }
+
+.hovercover {
+  color: transparent;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; }
+
+.hovercover:hover {
+  opacity: 0.7;
+  background-color: #000; }
+
+span.fontawesome-inline-svg {
+  display: inline-block;
+  height: 0.9em;
+  width: 0.9em;
+  top: -0.3em;
+  position: relative; }
+
+.move-left span.fontawesome-inline-svg {
+  top: 0;
+  left: -0.4em; }
 
 /*# sourceMappingURL=styles.css.map */
