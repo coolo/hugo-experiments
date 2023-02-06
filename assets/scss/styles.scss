@@ -1,1 +1,13 @@
+$primary:#ef5285;
+$body-color: #120e18;
+$dark: #000;
+$green: #28a745;
+$cyan: #17a2b8;
+$font-family-sans-serif: "Source Sans Pro", sans-serif;
+$small-font-size: .8em;
+$headings-font-weight: 700;
+$link-decoration: none;
+$link-hover-color: #e01557;
+$container-padding-x: 1rem;
 @import "bootstrap/bootstrap";
+@import "bootstrapious";
