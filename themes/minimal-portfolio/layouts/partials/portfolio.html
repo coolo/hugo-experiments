@@ -4,15 +4,17 @@
             <div class="listing-item ps-0">
                 <div class="position-relative">
                     <a class="reset-anchor d-block listing-img-holder" href="{{ .Permalink }}"><img class="img-fluid rounded-lg" src="{{.Params.image | absURL}}" alt="{{.Title}}"/>
-                        <p class="mb-0 text-primary small d-flex align-items-center listing-btn"> <span>Details</span>
-                        <svg class="svg-icon text-primary svg-icon-sm ms-1">
-                            <use xlink:href="#arrow-right-1"> </use>
-                        </svg>
+                        <p class="mb-0 text-primary small d-flex align-items-center listing-btn"> <span>Details</span> 
+                            {{ partial "fontawesome.html" "solid/chevron-right" }}
+                            <i class="move-left"> 
+                                {{ partial "fontawesome.html" "solid/chevron-right" }}
+                            </i>
                         </p>
                     </a>
-                </div>                      
+                    <div class="hovercover d-block"></div>
+                </div>
             </div>
-            <div class="py-3">
+            <div class="py-3 solid-white">
                 <a class="reset-anchor" href="{{ .Permalink }}">
                 <h2 class="h5 listing-item-heading">{{ .Title }}</h2>
                 </a>

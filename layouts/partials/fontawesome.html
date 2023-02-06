@@ -1,0 +1,7 @@
+<span class="fontawesome-inline-svg" >
+    {{- $fname:=print "assets/fontawesome/" . ".svg" -}}
+    {{- $svg := readFile $fname -}}
+    {{- $commentStrippedSvg := replaceRE "<!--[^>]*-->" "" $svg -}}
+    {{- $filledPathSvg := replace $commentStrippedSvg "<path" "<path fill='currentColor'" -}}
+    {{ $filledPathSvg | safeHTML }}
+  </span>

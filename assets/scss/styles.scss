@@ -21,3 +21,35 @@ $container-padding-x: 1rem;
 .navbar-brand-svg {
     height: 0.7em;
 }
+
+.solid-white {
+    background-color: $body-bg;
+}
+
+.hovercover {
+    color: transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hovercover:hover {
+    opacity: 0.7;
+    background-color: $dark;
+}
+
+span.fontawesome-inline-svg {
+    display: inline-block;
+    height: 0.9em;
+    width: 0.9em;
+    top: -0.3em;
+    position: relative;
+
+}
+
+.move-left span.fontawesome-inline-svg {
+    top: 0;
+    left: -0.4em;
+}
