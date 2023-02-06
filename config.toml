@@ -1,10 +1,10 @@
 baseurl = "https://hugo.kulow.org"
-title = "Sonja G"
+title = "Sonja Gagel"
 theme = "minimal-portfolio"
 languageCode = "de-de"
 
 [params]
-  brand = "Sonja G"
+  brand = "Sonja Gagel"
   description = "Portfolio von Sonja G"
   copyright = "&copy;2023 Sonja G"
   
