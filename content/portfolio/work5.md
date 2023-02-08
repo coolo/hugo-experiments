@@ -1,9 +1,9 @@
 +++
 draft = false
-title =  "Hotel mit magnetischer Anziehung auf Mitarbeiter"
 image = "img/Ref_Sonja_Gagel_Hotel_Victoria_Wall_foto_5462.jpg"
 date = "2016-11-05T19:53:42+05:30"
-description = "Event und Raum / Branding / Employer-Branding"
+title =  "Hotel mit magnetischer Anziehung auf Mitarbeiter"
+category = "Event und Raum / Branding / Employer-Branding"
 weight = 5
 +++
 

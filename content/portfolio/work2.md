@@ -1,10 +1,10 @@
 +++
 date = "2016-11-05T19:41:01+05:30"
 draft = false
-weight = 2
 image = "img/SonjaGagel_Illustration_Deutsche_Bahn_GeheimsacheBahn_Schmuggel.jpg"
 title = "Ins Museum geschmuggelt"
-description = "Illustration / Ausstellung"
+category = "Illustration / Ausstellung"
+weight = 2
 +++
 
 When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.

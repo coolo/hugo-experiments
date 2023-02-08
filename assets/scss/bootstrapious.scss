@@ -25,10 +25,6 @@ body {
     padding-left: 1rem;
 }
 
-.listing-item-description {
-    color: #999;
-}
-
 .listing-item-heading {
     transition: all 0.3s;
 }
@@ -39,10 +35,6 @@ body {
     position: absolute;
     bottom: 0;
     left: 0;
-}
-
-.listing-item:hover .listing-img-holder::before {
-    
 }
 
 .listing-item:hover .listing-item-heading {

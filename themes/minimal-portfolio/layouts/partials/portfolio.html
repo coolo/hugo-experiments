@@ -1,6 +1,9 @@
 <div class="row gy-4 gx-5 masonry-wrapper">
     {{ range where (where .Site.Pages "Section" "portfolio") ".IsPage" true }}
         <div class="col-lg-6 col-md-6 grid-item">
+            <div>
+                <p class="mb-0 listing-item-category">{{ .Param "category" }}</p>
+            </div>
             <div class="listing-item ps-0">
                 <div class="position-relative">
                     <a class="reset-anchor d-block listing-img-holder" href="{{ .Permalink }}"><img class="img-fluid rounded-lg" src="{{.Params.image | absURL}}" alt="{{.Title}}"/>
@@ -14,11 +17,10 @@
                     <div class="hovercover d-block"></div>
                 </div>
             </div>
-            <div class="py-3 solid-white">
+            <div class="solid-white">
                 <a class="reset-anchor" href="{{ .Permalink }}">
-                <h2 class="h5 listing-item-heading">{{ .Title }}</h2>
+                <h2 class="h5 listing-item-head-text">{{ .Title }}</h2>
                 </a>
-                <p class="text-sm mb-0 listing-item-description">{{ .Description }}</p>
             </div>
         </div>
     {{ end }}

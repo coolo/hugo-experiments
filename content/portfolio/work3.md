@@ -1,9 +1,9 @@
 +++
+draft = false
 image = "img/SonjaGagel_Web_Lepper_Webseite_eule.jpg"
 date = "2016-11-05T19:44:32+05:30"
 title = "Eulen zum Finanzamt getragen?"
-description = "CI / Webseite"
-draft = false
+category = "CI / Webseite"
 weight = 3
 +++
 
