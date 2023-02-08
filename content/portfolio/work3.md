@@ -2,8 +2,9 @@
 draft = false
 image = "img/SonjaGagel_Web_Lepper_Webseite_eule.jpg"
 date = "2016-11-05T19:44:32+05:30"
-title = "Eulen zum Finanzamt getragen?"
 category = "CI / Webseite"
+head = "Head Eulen"
+teaser = "Eulen zum Finanzamt getragen?"
 weight = 3
 +++
 

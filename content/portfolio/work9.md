@@ -2,8 +2,9 @@
 draft = false
 image = "img/Ref_CI_Logo_4_Schloesser_Blasorchester_Sticker_Reihung.jpg"
 date = "2016-11-05T20:02:19+05:30"
-title = "Sticker"
 category = "Unbekannt"
+head = "Head Orchester"
+teaser = "Sticker"
 weight = 9
 +++
 

@@ -2,8 +2,9 @@
 draft = false
 image = "img/SonjaGagel_Illustration_SpalterBier_Hopfenbaeuerin.jpg"
 date = "2016-11-05T19:59:22+05:30"
-title = "Hopfen"
 category = "Unknown"
+head = "Head Bier"
+teaser = "Hopfen"
 weight = 8
 +++
 

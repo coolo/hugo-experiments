@@ -1,4 +1,9 @@
-$primary:#ef5285;
+$pink: #FF00F0;
+$gelb: #ffe800;
+$greengreen: #25f5b8;
+$rose: #eedfe1;
+$tuerkisgraupastell: #bad4d5;
+$primary: $pink;
 $body-color: #120e18;
 $dark: #000;
 $green: #28a745;
@@ -37,7 +42,7 @@ $container-padding-x: 1rem;
 
 .hovercover:hover {
     opacity: 0.7;
-    background-color: pink;
+    background-color: $pink;
 }
 
 span.fontawesome-inline-svg {
@@ -58,7 +63,28 @@ span.fontawesome-inline-svg {
     font-size: 14pt;
 }
 
+// on hover
 .listing-item-head-text {
     font-size: 50pt;
-    margin-bottom: 50pt;
+    color: $rose;
+    opacity: 0;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    bottom: 50pt;
+    width: 100%;
+}
+
+.hovercover:hover .listing-item-head-text {
+    opacity: 1;
+}
+
+.listing-item-teaser-text {
+    font-size: 24pt;
+    margin-bottom: 30pt;
+    transition: opacity 0.15s linear;
+}
+
+.row-minus-margin {
+    margin-top: 0;
 }

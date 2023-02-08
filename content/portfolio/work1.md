@@ -2,8 +2,9 @@
 draft = false
 image = "img/SonjaGagel_EVENT_DPolG_Landeskongress_Logo_neu_denken_animiert.gif"
 date = "2021-11-05T18:25:22+05:30"
-title = "Blau denkt neu -"
 category = "Event / CI / Trailer"
+head = "Head blau"
+teaser = "Blau denkt neu"
 weight = 1
 +++
 

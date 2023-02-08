@@ -2,8 +2,9 @@
 draft = false
 image = "img/SonjaGagel_CI_Ausstellung_Schulmuseum_KIKi.jpg"
 date = "2016-11-05T19:56:17+05:30"
-title = "KI (noch) ohne künstliche Intelligenz"
 category = "CI / Ausstellung / Spieledesign / Branding"
+head = "Head KI"
+teaser = "KI (noch) ohne künstliche Intelligenz"
 weight = 6
 +++
 

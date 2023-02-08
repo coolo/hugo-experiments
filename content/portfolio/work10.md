@@ -2,8 +2,9 @@
 draft = false
 image = "img/SonjaGagel_Kampagne_DPolG_Litfass2_Motiv_auge.jpg"
 date = "2016-11-05T20:22:08+05:30"
-title = "Liftfasssäule"
 category = "Unbekannt"
+head = "Head DPolG"
+teaser = "Liftfasssäule"
 weight = 10
 +++
 

@@ -2,8 +2,9 @@
 draft = false
 image = "img/Mockup_Geniale_Koepfe.png"
 date = "2016-11-05T19:57:40+05:30"
-title = "Geniale Köpfe"
 category = "Unknown"
+head = "Head Kopf"
+teaser = "Geniale Köpfe"
 weight = 7
 +++
 

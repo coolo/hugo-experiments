@@ -1,6 +1,6 @@
 <div class="row gy-4 gx-5 masonry-wrapper">
     {{ range where (where .Site.Pages "Section" "portfolio") ".IsPage" true }}
-        <div class="col-lg-6 col-md-6 grid-item">
+        <div class="col-lg-6 col-md-6 grid-item row-minus-margin">
             <div>
                 <p class="mb-0 listing-item-category">{{ .Param "category" }}</p>
             </div>
@@ -9,17 +9,19 @@
                     <a class="reset-anchor d-block listing-img-holder" href="{{ .Permalink }}"><img class="img-fluid rounded-lg" src="{{.Params.image | absURL}}" alt="{{.Title}}"/>
                         <p class="mb-0 text-primary small d-flex align-items-center listing-btn"> <span>Details</span> 
                             {{ partial "fontawesome.html" "solid/chevron-right" }}
-                            <i class="move-left"> 
+                            <i class="move-left">
                                 {{ partial "fontawesome.html" "solid/chevron-right" }}
                             </i>
                         </p>
                     </a>
-                    <div class="hovercover d-block"></div>
+                    <div class="hovercover d-block">
+                        <h2 class="h3 listing-item-head-text">{{ .Param "head" }}</h2>
+                    </div>
                 </div>
             </div>
             <div class="solid-white">
                 <a class="reset-anchor" href="{{ .Permalink }}">
-                <h2 class="h5 listing-item-head-text">{{ .Title }}</h2>
+                <h2 class="h5 listing-item-teaser-text">{{ .Param "teaser" }}</h2>
                 </a>
             </div>
         </div>

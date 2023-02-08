@@ -2,9 +2,9 @@
 draft = false
 image = "img/SonjaGagel_Kalender_Free_Mailing_Titelausschnitt_Elefant.png"
 date = "2016-11-05T19:50:47+05:30"
-title = "Sinnloser Kalender mit Award prämiert!"
-description = "Gregor-Award für 12 Monate Präsens im Raum - macht Sinn!"
 category = "Unknown"
+head = "Head Kalender"
+teaser = "Sinnloser Kalender mit Award prämiert!"
 weight = 4
 +++
 
