@@ -37,7 +37,7 @@ $container-padding-x: 1rem;
 
 .hovercover:hover {
     opacity: 0.7;
-    background-color: $dark;
+    background-color: pink;
 }
 
 span.fontawesome-inline-svg {
@@ -46,7 +46,6 @@ span.fontawesome-inline-svg {
     width: 0.9em;
     top: -0.3em;
     position: relative;
-
 }
 
 .move-left span.fontawesome-inline-svg {
