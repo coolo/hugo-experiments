@@ -8371,9 +8371,6 @@ body {
 .listing-item {
   padding-left: 1rem; }
 
-.listing-item-description {
-  color: #999; }
-
 .listing-item-heading {
   transition: all 0.3s; }
 
@@ -9032,5 +9029,13 @@ span.fontawesome-inline-svg {
 .move-left span.fontawesome-inline-svg {
   top: 0;
   left: -0.4em; }
+
+.listing-item-category {
+  color: #000;
+  font-size: 14pt; }
+
+.listing-item-head-text {
+  font-size: 50pt;
+  margin-bottom: 50pt; }
 
 /*# sourceMappingURL=styles.css.map */
