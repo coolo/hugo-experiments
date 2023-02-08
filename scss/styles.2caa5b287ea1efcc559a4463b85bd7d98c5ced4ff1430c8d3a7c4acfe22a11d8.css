@@ -9045,12 +9045,12 @@ span.fontawesome-inline-svg {
   width: 100%; }
 
 .hovercover:hover .listing-item-head-text {
-  opacity: 1; }
+  opacity: 1;
+  transition: opacity 0.15s linear; }
 
 .listing-item-teaser-text {
   font-size: 24pt;
-  margin-bottom: 30pt;
-  transition: opacity 0.15s linear; }
+  margin-bottom: 30pt; }
 
 .row-minus-margin {
   margin-top: 0; }
