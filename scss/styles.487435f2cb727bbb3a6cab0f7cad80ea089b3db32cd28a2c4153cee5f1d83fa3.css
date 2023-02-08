@@ -9020,7 +9020,7 @@ a.text-hover-dark:focus, a.text-hover-dark:hover {
 
 .hovercover:hover {
   opacity: 0.7;
-  background-color: #000; }
+  background-color: pink; }
 
 span.fontawesome-inline-svg {
   display: inline-block;
