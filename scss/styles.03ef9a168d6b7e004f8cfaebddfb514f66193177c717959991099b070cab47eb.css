@@ -8997,9 +8997,7 @@ a.text-hover-dark:focus, a.text-hover-dark:hover {
   text-decoration: none; }
 
 .projekte {
-  font-size: 12vw;
-  background-color: #fff;
-  z-index: 0; }
+  font-size: 12vw; }
 
 .navbar-brand-svg {
   height: 0.7em; }
