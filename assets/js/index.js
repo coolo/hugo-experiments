@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (masonryGrid) {
         var msnry = new Masonry(masonryGrid, {
             itemSelector: ".masonry-grid-item",
-            columnWidth: ".masonry-grid-sizer",
+            columnWidth: ".masonry-grid-item-3",
             percentPosition: false,
             transitionDuration: 300,
             horizontalOrder: true,

@@ -1,5 +1,4 @@
 <div class="row masonry-grid">
-    <div class="masonry-grid-sizer"></div>
     {{ range where (where .Site.Pages "Section" "portfolio") ".IsPage" true }}
         <div class="col-lg-6 col-md-6 masonry-grid-item masonry-grid-item-{{ .Params.cols | default 6 }} row-minus-margin">
             <div>
