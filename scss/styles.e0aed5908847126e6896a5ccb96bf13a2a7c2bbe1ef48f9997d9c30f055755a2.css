@@ -4,6 +4,7 @@
    * Copyright 2011-2022 Twitter, Inc.
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -48,7 +49,7 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 18, 14, 24;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: "Source Sans Pro", sans-serif;
+  --bs-font-sans-serif: "Inter", sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
