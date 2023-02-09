@@ -9059,4 +9059,19 @@ span.fontawesome-inline-svg {
   .listing-item-head-text a :hover {
     color: #bad4d5; }
 
+.masonry-grid-sizer {
+  width: 25%; }
+
+.masonry-grid-item-3 {
+  width: 25%; }
+
+.masonry-grid-item-6 {
+  width: 50%; }
+
+.anfragen-button {
+  position: absolute;
+  height: 10em;
+  right: 2em;
+  top: 4em; }
+
 /*# sourceMappingURL=styles.css.map */
