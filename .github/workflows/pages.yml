@@ -23,7 +23,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify
+        run: HUGO_ENVIRONMENT=production hugo --minify
 
       - name: Push
         uses: s0/git-publish-subdir-action@develop

@@ -1,17 +1,13 @@
 <!-- JavaScript files-->
 
-<script src="{{ "js/masonary.js" | absURL }}"></script>
-<script src="{{ "js/imagesloaded.js" | absURL }}"> </script>
-<script src="{{ "js/glightbox.js" | absURL }}"></script>
-
-{{/* Load Bootstrap JS. */}}
 {{ $js := resources.Get "js/index.js" }}
-{{ $params := dict }}
+{{ $imagesloaded := resources.Get "js/imagesloaded.pkgd.js" | minify }}
+{{ $masonry := resources.Get "js/masonry.pkgd.js" | minify }}
 {{ $sourceMap := cond hugo.IsProduction "" "inline" }}
-{{ $opts := dict "sourceMap" $sourceMap "minify" hugo.IsProduction "target" "es2018" "params" $params }}
+{{ $opts := dict "sourceMap" $sourceMap "minify" hugo.IsProduction "target" "es2018" }}
 {{ $js = $js | js.Build $opts }}
+{{ $js = slice $masonry $imagesloaded $js | resources.Concat "js/bundle.js" }}
 {{ if hugo.IsProduction }}
 {{ $js = $js | fingerprint }}
 {{ end }}  
 <script src="{{ $js.RelPermalink }}" {{ if hugo.IsProduction }}integrity="{{ $js.Data.Integrity }}"{{ end }} defer></script>
-

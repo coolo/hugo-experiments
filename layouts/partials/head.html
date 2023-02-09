@@ -9,8 +9,8 @@
 
     {{/* Load Bootstrap SCSS. */}}
     {{ $options := dict "enableSourceMap" true }}
-    {{ if hugo.IsProduction}}
-    {{ $options := dict "enableSourceMap" false "outputStyle" "compressed" }}
+    {{ if hugo.IsProduction }}
+    {{ $options = dict "enableSourceMap" false "outputStyle" "compressed" }}
     {{ end }}
     {{ $styles := resources.Get "scss/styles.scss" }}
     {{ $styles = $styles | resources.ToCSS $options }}
