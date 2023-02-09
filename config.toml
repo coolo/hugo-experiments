@@ -1,6 +1,5 @@
 baseurl = "https://hugo.kulow.org"
 title = "Sonja Gagel"
-theme = "minimal-portfolio"
 languageCode = "de-de"
 
 [params]

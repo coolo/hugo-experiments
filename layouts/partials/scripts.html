@@ -1,5 +1,9 @@
 <!-- JavaScript files-->
 
+<script src="{{ "js/masonary.js" | absURL }}"></script>
+<script src="{{ "js/imagesloaded.js" | absURL }}"> </script>
+<script src="{{ "js/glightbox.js" | absURL }}"></script>
+
 {{/* Load Bootstrap JS. */}}
 {{ $js := resources.Get "js/index.js" }}
 {{ $params := dict }}
@@ -11,7 +15,3 @@
 {{ end }}  
 <script src="{{ $js.RelPermalink }}" {{ if hugo.IsProduction }}integrity="{{ $js.Data.Integrity }}"{{ end }} defer></script>
 
-<script src="{{ "js/masonary.js" | absURL }}"></script>
-<script src="{{ "js/imagesloaded.js" | absURL }}"> </script>
-<script src="{{ "js/glightbox.js" | absURL }}"></script>
-<script src="{{ "js/front.js" | absURL }}"></script>

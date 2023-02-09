@@ -8,7 +8,8 @@ $body-color: #120e18;
 $dark: #000;
 $green: #28a745;
 $cyan: #17a2b8;
-$font-family-sans-serif: "Source Sans Pro", sans-serif;
+$google-font: "Inter";
+$font-family-sans-serif: $google-font, sans-serif;
 $small-font-size: .8em;
 $headings-font-weight: 700;
 $link-decoration: none;
@@ -16,6 +17,7 @@ $link-hover-color: #e01557;
 $container-padding-x: 1rem;
 @import "bootstrap/bootstrap";
 @import "bootstrapious";
+@import url("https://fonts.googleapis.com/css2?family=#{$google-font}:wght@400;700&display=swap");
 
 .projekte {
     font-size: 12vw;
