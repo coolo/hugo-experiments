@@ -11,13 +11,15 @@ document.addEventListener("DOMContentLoaded", function () {
     /* ===============================================================
 		MASONRY WITH IMAGES LOADED
 	=============================================================== */
-    const masonryGrid = document.querySelector(".masonry-wrapper");
+    const masonryGrid = document.querySelector(".masonry-grid");
     if (masonryGrid) {
+        console.log("Hallo");
         var msnry = new Masonry(masonryGrid, {
-            itemSelector: ".grid-item",
-            columnWidth: ".grid-item",
-            percentPosition: true,
+            itemSelector: ".masonry-grid-item",
+            columnWidth: ".masonry-grid-sizer",
+            percentPosition: false,
             transitionDuration: 300,
+            horizontalOrder: true,
         });
         imagesLoaded(masonryGrid).on("progress", function () {
             msnry.layout();

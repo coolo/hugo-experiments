@@ -1,6 +1,7 @@
-<div class="row gy-4 gx-5 masonry-wrapper">
+<div class="row masonry-grid">
+    <div class="masonry-grid-sizer"></div>
     {{ range where (where .Site.Pages "Section" "portfolio") ".IsPage" true }}
-        <div class="col-lg-6 col-md-6 grid-item row-minus-margin">
+        <div class="col-lg-6 col-md-6 masonry-grid-item masonry-grid-item-{{ .Params.cols | default 6 }} row-minus-margin">
             <div>
                 <p class="mb-0 listing-item-category">{{ .Param "category" }}</p>
             </div>

@@ -5,7 +5,8 @@ date = "2016-11-05T19:57:40+05:30"
 category = "Unknown"
 head = "Head Kopf"
 teaser = "Geniale Köpfe"
-weight = 7
+weight = 8
+cols = 6
 +++
 
 Fifth abundantly made Give sixth hath. Cattle creature i be don't them.
