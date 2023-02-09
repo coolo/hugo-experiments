@@ -9033,7 +9033,7 @@ span.fontawesome-inline-svg {
   font-size: 14pt; }
 
 .listing-item-head-text {
-  font-size: 50pt;
+  font-size: 0;
   color: #eedfe1;
   opacity: 0;
   margin: auto;
@@ -9044,7 +9044,8 @@ span.fontawesome-inline-svg {
 
 .hovercover:hover .listing-item-head-text {
   opacity: 1;
-  transition: opacity 0.15s ease-in; }
+  transition: opacity 0.15s ease-in;
+  font-size: 50pt; }
 
 .listing-item-teaser-text {
   font-size: 24pt;
