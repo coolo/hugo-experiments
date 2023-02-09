@@ -6,23 +6,26 @@
             </div>
             <div class="listing-item ps-0">
                 <div class="position-relative">
-                    <a class="reset-anchor d-block listing-img-holder" href="{{ .Permalink }}"><img class="img-fluid rounded-lg" src="{{.Params.image | absURL}}" alt="{{.Title}}"/>
+                    <div class="d-block listing-img-holder">
+                        <img class="img-fluid rounded-lg" src="{{.Params.image | absURL}}" alt="{{.Title}}"/>
                         <p class="mb-0 text-primary small d-flex align-items-center listing-btn"> <span>Details</span> 
                             {{ partial "fontawesome.html" "solid/chevron-right" }}
                             <i class="move-left">
                                 {{ partial "fontawesome.html" "solid/chevron-right" }}
                             </i>
                         </p>
-                    </a>
+                    </div>
                     <div class="hovercover d-block">
-                        <h2 class="h3 listing-item-head-text">{{ .Param "head" }}</h2>
+                        <h2 class="h3 listing-item-head-text">
+                            <a href="{{ .Permalink }}">{{ .Param "head" }}</a>
+                        </h2>
                     </div>
                 </div>
-            </div>
-            <div>
-                <a class="reset-anchor" href="{{ .Permalink }}">
-                <h2 class="h5 listing-item-teaser-text">{{ .Param "teaser" }}</h2>
-                </a>
+                <div listing-item-teaser-text>
+                    <a class="reset-anchor" href="{{ .Permalink }}">
+                        <h2 class="h5 listing-item-teaser-text">{{ .Param "teaser" }}</h2>
+                    </a>
+                </div>
             </div>
         </div>
     {{ end }}

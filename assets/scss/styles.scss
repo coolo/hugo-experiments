@@ -75,7 +75,7 @@ span.fontawesome-inline-svg {
 
 .hovercover:hover .listing-item-head-text {
     opacity: 1;
-    transition: opacity 0.15s linear;
+    transition: opacity 0.15s ease-in;
 }
 
 .listing-item-teaser-text {
@@ -85,4 +85,12 @@ span.fontawesome-inline-svg {
 
 .row-minus-margin {
     margin-top: 0;
+}
+
+.listing-item-head-text a {
+    color: $rose;
+
+    :hover {
+        color: $tuerkisgraupastell;
+    }
 }
